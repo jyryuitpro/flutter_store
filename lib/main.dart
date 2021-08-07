@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -49,6 +50,22 @@ class StorePage extends StatelessWidget {
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ],
+              ),
+            ),
+            // Named constructor
+            Expanded(
+              child: Image.asset(
+                "assets/bag.jpeg",
+                fit: BoxFit.cover,
+              ),
+            ),
+            SizedBox(
+              height: 2,
+            ),
+            Expanded(
+              child: Image.asset(
+                "assets/cloth.jpeg",
+                fit: BoxFit.cover,
               ),
             ),
           ],
